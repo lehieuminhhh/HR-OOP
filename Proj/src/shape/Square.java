@@ -20,4 +20,10 @@ public class Square extends Rectangle
     {
         return getWidth();
     }
+    @Override
+    public void draw()
+    {
+        System.out.println("LeftTop: " + getLeftTop().toString());
+        System.out.println("Side: " + getSide());
+    }
 }
